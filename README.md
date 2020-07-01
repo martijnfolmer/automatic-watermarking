@@ -2,12 +2,12 @@
 
 In this script, we automatically copy and append images with a watermark. 
 
-To use this script, you must run create_watermarks.py. There are several variables (line 19- line 29) that you can change in order to suit your needs. These are:
+To use this script, you must run __create_watermarks.py__. There are several variables (line 15 - line 25) that you can change in order to suit your needs. These are:
 
 - input_folder : The path to the folder in which we have stored the images we wish to watermark
 - output_folder : The path to the folder in which we want to store the final watermarked images
 - watermark_img : The path to the image we are going to use as a watermark. For the best experience, you should use a .png
-- wm_type       : This is an integer between 0 and 4 dictates where the watermark is located in the image. The differences can be seen in the below image
+- wm_type       : This is an integer between 0 and 4, which dictates where the watermark is located in the image. The differences can be seen in the below image
 ![type_image](readme_img/wm_type.jpg)
 
 - wm_scale     : This if a float and dictates if you want to resize the watermark. This can be seen in the below image
